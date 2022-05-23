@@ -1,7 +1,26 @@
 {
   "name": "apollo-reactive-x",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "description": "The convenience of Apollo's useQuery hooks with the reactivity of MobX.",
+  "keywords": [
+    "apollo",
+    "mobx",
+    "reactive",
+    "state-management",
+    "graphql",
+    "react",
+    "apollo-client",
+    "typescript"
+  ],
+  "author": "Zac Lockwood",
+  "license": "MIT",
   "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacLockwood/apollo-reactive-x.git"
+  },
+  "bugs": "https://github.com/ZacLockwood/apollo-reactive-x/issues",
+  "homepage": "https://github.com/ZacLockwood/apollo-reactive-x#readme",
   "files": [
     "decorators.ts",
     "hooks.ts",
