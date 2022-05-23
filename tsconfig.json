@@ -4,7 +4,6 @@
     "jsx": "react",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "allowJs": true,
     "composite": false,
     "declaration": true,
     "declarationMap": true,
@@ -15,7 +14,9 @@
     "isolatedModules": true,
     "moduleResolution": "node",
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext"],
+    "outDir": "./lib",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
@@ -24,5 +25,5 @@
     "strict": true,
     "baseUrl": "."
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "./lib/**/*"]
 }
